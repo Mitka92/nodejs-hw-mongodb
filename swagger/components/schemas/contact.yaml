@@ -6,7 +6,6 @@ required:
   - email
   - isFavourite
   - contactType
-  - userId
 properties:
   _id:
     description: "Contact's id"
@@ -33,10 +32,6 @@ properties:
     type: string
     enum: ['work', 'home', 'personal']
     example: personal
-  userId:
-    description: "User's id"
-    type: string
-    example: 65e4decdd286b30065d54af9
   photo:
     description: "Link to contact's photo"
     type: string
